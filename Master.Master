@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="zscq.Master" %>
+
+    <!DOCTYPE html>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+        *, *:after, *:before {
+            box-sizing: border-box;
+        }
+        </style>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/global.css" />
+        <link rel="stylesheet" href="/components/components.css" />
+        <link rel="stylesheet" href="/css/master.css" />
+        <link rel="stylesheet" href="/css/head_bottom.css" />
+        <asp:ContentPlaceHolder id="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+
+    <body>
+        <div class="head">
+            <!--<%--横向标签栏--%>-->
+            <nav class="animenu">
+                <ul class="animenu__nav">
+                    <li>
+                        <a href="/Home.aspx">首页</a>
+                    </li>
+                    <li>
+                        <a href="/Views/News/News.aspx">资讯&动态</a>
+                    </li>
+                    <li>
+                        <a href="/Views/TeamPres/TeamPres.aspx">团队展示</a>
+                    </li>
+                    <li>
+                        <a href="/aspx/JYDT.aspx">交易大厅</a>
+                        <ul class="animenu__nav__child">
+                            <li><a href="/aspx/JYDT_list.aspx">供求对接</a></li>
+                            <li><a href="#">在线交易</a></li>
+                            <li><a href="#">在线竞拍</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/aspx/XXJY.aspx">线下活动</a>
+                    </li>
+                    <li>
+                        <a href="#">科技服务</a>
+                    </li>
+                    <li>
+                        <a href="/Views/Downloads/Downloads.aspx">资料下载</a>
+                    </li>
+                    <li>
+                        <a href="#">农产品商城</a>
+                    </li>
+                    <li>
+                        <a href="#">订单农业</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--<%--search标签栏--%>-->
+		    <div class="search_bar_holder">
+			    <div class="search_bar">
+				    <div class="search_img">快速检索</div>
+				    <div style="padding-top:6px">
+					    <input id="search_content" class="search" type="text" placeholder="搜索专利、专家、服务" />
+					    <button class="search_btn">搜索</button>
+				    </div>
+			    </div>
+		    </div>
+        </div>
+
+        <form id="root" class="content" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </form>
+
+        <!--<%-- 底部代码 --%>-->
+        <div class="bottom">
+            <div class="con1">
+                <a href="#">新手指南</a><br />
+                <a href="#">注册新用户</a>&nbsp;&nbsp;&nbsp;<a href="#">交易入门</a><br />
+                <a href="#">交易规则</a>&nbsp;&nbsp;&nbsp;<a href="#">拍卖规则</a>
+            </div>
+            <div class="con2">
+                <a href="#">新手指南</a><br />
+                <a href="#">注册新用户</a>&nbsp;&nbsp;&nbsp;<a href="#">交易入门</a><br />
+                <a href="#">交易规则</a>&nbsp;&nbsp;&nbsp;<a href="#">拍卖规则</a>
+            </div>
+		    <div class="contact">
+			    <span>400-150-9966<br />0515-86208888<br /></span>
+			    <span>周一至周日9:00 - 23:00</span><br />
+			    <button>联系客服</button>
+		    </div>
+        </div>
+        <!--<%-- </div>--%>-->
+
+        <script src="/js/jQuery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/vue.min.js"></script>
+        <script src="/js/vue-resource.min.js"></script>
+        <script src="/components/components.js"></script>
+        <asp:ContentPlaceHolder id="ScriptPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </body>
+
+    </html>

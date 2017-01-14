@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="MasterWithLeftNav.master.cs" Inherits="zscq.MasterWithLeftNav" %>
+    <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </asp:Content>
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <div id="left">
+            <left-nav :nav-list="navList"></left-nav>
+
+            <div class="friendly-link">
+                <div class="div-default">
+                    <div class="triangle-right" style="display:inline-block"></div>
+                    <a href="http://www.jstd.gov.cn/" target="_blank">江苏省科技厅</a>
+                </div>
+                <div class="div-default">
+                    <div class="triangle-right" style="display:inline-block"></div>
+                    <a href="http://www.jaas.ac.cn/" target="_blank">江苏省农业科学院</a>
+                </div>
+                <div class="div-default">
+                    <div class="triangle-right" style="display:inline-block"></div>
+                    <a href="http://210.73.154.11/super/super/" target="_blank">江苏省农业科技服务超市</a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="LeftNavPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="clearfix"></div>
+    </asp:Content>
+    <asp:Content ID="Content3" ContentPlaceHolderID="ScriptPlaceHolder" runat="server">
+        <asp:ContentPlaceHolder id="ScriptPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+        <script>
+        var left = new Vue({
+            el: '#left',
+            data: {
+                'navList': {
+                    header: '快速通道',
+                    items: [
+                      {
+                          title: '我要找成果',
+                          url: '/aspx/JYDT_list.aspx'
+                      },
+                      {
+                          title: '我要找需求',
+                          url: '/aspx/JYDT_list.aspx'
+                      },
+                      {
+                          title: '我要发布成果',
+                          url: '/Manage/ManageMain.aspx#chengguo/CGPub.aspx'
+                      },
+                      {
+                          title: '我要参加竞拍',
+                          url: '#'
+                      },
+                      {
+                          title: '我要发布竞拍',
+                          url: '#'
+                      },
+                      {
+                          title: '我要发布/参加线下活动',
+                          url: '/Manage/ManageMain.aspx#chengguo/XXJYPub.aspx'
+                      },
+                      {
+                          title: '我要找专家',
+                          url: '#'
+                      },
+                      {
+                          title: '我寻求技术服务',
+                          url: '#'
+                      },
+                      {
+                          title: '我查看交易规则',
+                          url: '/aspx/jygg_details.aspx'
+                      }
+                    ]
+                }
+            }
+        })
+
+    </script>
+    </asp:Content>

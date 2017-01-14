@@ -1,0 +1,157 @@
+﻿
+.title{
+    color: #1E9DD7;
+}
+
+.w72{
+    float:left;
+    width:72%;
+}
+
+.w28{
+    float:left;
+    width:28%;
+    padding-left:11px;
+}
+
+.w57{
+    float:left;
+    width:57%;
+}
+
+.w41{
+    float:left;
+    width:41%;
+    margin-left:15px;
+}
+
+.w31{
+    float:left;
+    width:31%;
+}
+
+.btn-login{
+    width:49%;
+    border-radius:0;
+    padding:0;
+}
+
+#new-achievement{
+    margin:5px 0 0 0;
+    height:190px;
+}
+
+#news-tab{
+    margin-top:10px;
+    height:225px;
+}
+
+#group-tab{
+    margin-top:10px;
+    height:208px;
+}
+
+.btn-more{
+    float:right;
+    font-size:10px;
+    padding:0 10px;
+}
+
+#trade-tab{
+    margin-top:-20px;
+    height:230px;
+}
+
+#trade-tab .tab-content{
+    padding: 10px;
+}
+
+#statistics{
+    height:190px;
+    margin-top:5px;
+    background-color: #EEE;
+}
+
+#statistics span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3B4D73;
+}
+
+#achievement-count{
+    position:absolute;
+    left:120px;
+    top:90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3B4D73;
+}
+
+#team-count{
+    position:absolute;
+    left:290px;
+    top:30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #C46E17;
+}
+
+#service-count{
+    position:absolute;
+    left: 480px;
+    top:90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3B4D73;
+}
+
+#activity-count{
+    position:absolute;
+    left: 670px;
+    top:30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #C46E17;
+}
+
+#successful-case{
+    width: 100%;
+    height: 300px;
+    table-layout: fixed;
+}
+
+#successful-case td{
+    padding: 5px;
+}
+
+.team{
+    height: 270px;
+    padding: 0;
+}
+
+.team .top{
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.team .top span{
+    vertical-align: bottom;
+}
+
+.org{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.org div{
+    height: 60px;
+    line-height: 48px;
+    background: url("../images/res-icon.png") no-repeat 55px center;
+    margin-bottom: 10px;
+    color: gray;
+}

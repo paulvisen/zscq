@@ -1,0 +1,45 @@
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\bin\zscq.dll.config
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\bin\zscq.dll
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\bin\zscq.pdb
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\obj\Debug\zscq.csprojResolveAssemblyReference.cache
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\obj\Debug\zscq.dll
+c:\users\jwcui\documents\visual studio 2013\Projects\zscq\zscq\obj\Debug\zscq.pdb
+C:\Users\jwcui\Documents\Visual Studio 2013\Projects\zscq\zscq\bin\Newtonsoft.Json.dll
+C:\Users\jwcui\Documents\Visual Studio 2013\Projects\zscq\zscq\bin\Newtonsoft.Json.pdb
+C:\Users\jwcui\Documents\Visual Studio 2013\Projects\zscq\zscq\bin\Newtonsoft.Json.xml
+E:\成果信息化系统\cjw\zscq\zscq\bin\zscq.dll.config
+E:\成果信息化系统\cjw\zscq\zscq\bin\zscq.dll
+E:\成果信息化系统\cjw\zscq\zscq\bin\zscq.pdb
+E:\成果信息化系统\cjw\zscq\zscq\bin\Newtonsoft.Json.dll
+E:\成果信息化系统\cjw\zscq\zscq\bin\Newtonsoft.Json.pdb
+E:\成果信息化系统\cjw\zscq\zscq\bin\Newtonsoft.Json.xml
+E:\成果信息化系统\cjw\zscq\zscq\obj\Debug\zscq.csprojResolveAssemblyReference.cache
+E:\成果信息化系统\cjw\zscq\zscq\obj\Debug\zscq.dll
+E:\成果信息化系统\cjw\zscq\zscq\obj\Debug\zscq.pdb
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\zscq.dll.config
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\zscq.dll
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\zscq.pdb
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\Newtonsoft.Json.dll
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\Newtonsoft.Json.pdb
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\bin\Newtonsoft.Json.xml
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\obj\Debug\zscq.csprojResolveAssemblyReference.cache
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\obj\Debug\zscq.dll
+C:\Users\jwcui\Documents\Tencent Files\2497494446\FileRecv\zscq\zscq\obj\Debug\zscq.pdb
+E:\zscq\zscq\bin\zscq.dll.config
+E:\zscq\zscq\bin\zscq.dll
+E:\zscq\zscq\bin\zscq.pdb
+E:\zscq\zscq\bin\Newtonsoft.Json.dll
+E:\zscq\zscq\bin\Newtonsoft.Json.pdb
+E:\zscq\zscq\bin\Newtonsoft.Json.xml
+E:\zscq\zscq\obj\Debug\zscq.csprojResolveAssemblyReference.cache
+E:\zscq\zscq\obj\Debug\zscq.dll
+E:\zscq\zscq\obj\Debug\zscq.pdb
+F:\Code\zscq\zscq\bin\zscq.dll.config
+F:\Code\zscq\zscq\bin\zscq.dll
+F:\Code\zscq\zscq\bin\zscq.pdb
+F:\Code\zscq\zscq\bin\Newtonsoft.Json.dll
+F:\Code\zscq\zscq\bin\Newtonsoft.Json.pdb
+F:\Code\zscq\zscq\bin\Newtonsoft.Json.xml
+F:\Code\zscq\zscq\obj\Debug\zscq.csprojResolveAssemblyReference.cache
+F:\Code\zscq\zscq\obj\Debug\zscq.dll
+F:\Code\zscq\zscq\obj\Debug\zscq.pdb

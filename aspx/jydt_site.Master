@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="jydt_site.master.cs" Inherits="zscq.aspx.jydt_site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <link href="../css/head_bottom.css" rel="stylesheet" />
+    <link href="../css/jydt.css" rel="stylesheet" />
+    <style type="text/css">
+        .user_list {
+            margin: 0px auto;
+            background-color: rgb(232, 232, 232);
+            height: 32px;
+            width: 1200px;
+            position: relative;
+            top: 5px;
+            border: rgb(192, 192, 192) solid 1px;
+            font: 13px Microsoft YaHei;
+            line-height: 30px;
+        }
+
+        .user_listL a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .user_listR a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .user_listL {
+            position: relative;
+            float: left;
+            margin-left: 20px;
+        }
+
+        .user_listR {
+            position: relative;
+            float: right;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div class="head">
+            <!--<%--横向标签栏--%>-->
+            <nav class="animenu">
+                <ul class="animenu__nav">
+                    <li>
+                        <a href="/Home.aspx">首页</a>
+                    </li>
+                    <li>
+                        <a href="/Views/News/News.aspx">资讯&动态</a>
+                    </li>
+                    <li>
+                        <a href="#">团队展示</a>
+                    </li>
+                    <li>
+                        <a href="/aspx/JYDT.aspx">交易大厅</a>
+                        <ul class="animenu__nav__child">
+                            <li><a href="/aspx/jydt_list.aspx">供求对接</a></li>
+                            <li><a href="/aspx/jydt_list.aspx">在线交易</a></li>
+                            <li><a href="/aspx/jydt_list.aspx">在线竞拍</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/aspx/XXJY.aspx">线下活动</a>
+                       
+                    </li>
+                    <li>
+                        <a href="#">科技服务</a>
+                    </li>
+                    <li>
+                        <a href="/Views/Downloads/Downloads.aspx">资料下载</a>
+                    </li>
+                    <li>
+                        <a href="#">农产品商城</a>
+                    </li>
+                    <li>
+                        <a href="#">订单农业</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--<%--search标签栏--%>-->
+            <div class="search_bar_holder">
+                <div class="search_bar">
+                    <div class="search_img">快速检索</div>
+                    <div style="padding-top: 6px">
+                        <input id="Text1" class="search" type="text" placeholder="搜索专利、专家、服务" />
+                        <button class="search_btn">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <%-- 主要内容 --%>
+        <div class="content">
+            <%-- 用户栏 --%>
+           
+            <%-- 主要内容-右边 --%>
+            
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        
+       </div>
+
+        <%-- 底部代码 --%>
+        <div class="bottom" >
+            <div class="con1">
+                <a href="#">新手指南</a><br />
+                <a href="#">注册新用户</a>&nbsp;&nbsp;&nbsp;<a href="#">交易入门</a><br />
+                <a href="#">交易规则</a>&nbsp;&nbsp;&nbsp;<a href="#">拍卖规则</a>
+            </div>
+            <div class="con2">
+                <a href="#">新手指南</a><br />
+                <a href="#">注册新用户</a>&nbsp;&nbsp;&nbsp;<a href="#">交易入门</a><br />
+                <a href="#">交易规则</a>&nbsp;&nbsp;&nbsp;<a href="#">拍卖规则</a>
+            </div>
+            <div class="contact">
+                <span>400-150-9966<br />
+                    0515-86208888<br />
+                </span>
+                <span>周一至周日9:00 - 23:00</span><br />
+                <button>联系客服</button>
+            </div>
+        </div>
+
+       
+    
+    </form>
+</body>
+</html>

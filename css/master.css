@@ -1,0 +1,137 @@
+﻿body {
+    margin: 0 auto;
+    /*background: url(../QQ20161206200118.png) no-repeat center 0;*/
+}
+
+li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.animenu li{
+    overflow:visible;
+    white-space: normal;
+}
+
+li > div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a{
+    color: black;
+    cursor: pointer;
+}
+
+
+#root{
+    width:1220px;
+}
+
+#left{
+    float:left;
+    width:21%;
+    margin-left: 1%;
+}
+
+#main{
+    float:left;
+    width:78%;
+    padding:10px;
+}
+
+#bottom{
+    background:url('../images/bottom.png');
+    height: 363px;
+    margin-top: 50px;
+}
+
+.div-default{
+    height:100%;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:1px solid lightgrey;
+}
+
+.breadcrumb{
+    background-color:#EDEDED;
+    padding:10px 20px;
+    font-weight:bold;
+    font-size: 13px;
+    border: 1px solid lightgrey;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin:5px 10px;
+    line-height: 22px;
+}
+
+.title-border{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 5px;
+}
+
+.banner{
+    height: 250px;
+    background: url('../images/banner.png');
+    padding-left: 883px;
+    padding-top: 200px;
+}
+
+#search input{
+    width: 220px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+#search button{
+    background-color: black;
+    color: white;
+    border-width: 0;
+    width: 60px;
+    height: 30px;
+    margin-left: -6px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 18px solid #0267B5;
+    border-bottom: 12px solid transparent;
+    margin-left: 6px;
+}
+
+.friendly-link{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;    
+}
+
+.friendly-link > div{
+    padding: 15px;
+    height: 60px;
+    margin-bottom: 10px;  
+}
+
+.friendly-link > div > a{
+    padding-left:10px;
+    display: inline-block;
+    vertical-align: super;
+    color: gray;
+}

@@ -1,0 +1,9 @@
+﻿.table > thead > tr > th {
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    background-color: #F5F5F6;
+}
+
+td{
+    vertical-align: middle !important;
+}

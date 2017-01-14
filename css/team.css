@@ -1,0 +1,531 @@
+﻿a,a:hover,a:active,a:focus{
+    text-decoration:none;
+}
+
+.second {
+    margin:0 auto;
+    width:1200px;
+    height:260px;
+}
+
+.YXCGZB {
+    float:left;
+    width:780px;
+    height:100%;
+    margin:0px auto; 
+    border:1px solid #dfdfdf; 
+    border-collapse:collapse;
+}
+.YXCGZB h1 {
+    width:280px;
+    height:10%;
+    margin:10px 0px 10px;
+    line-height:20px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    color:#1b4570;            
+}
+.YXCGZB hr {
+    width:280px;
+    height:2%;
+    margin:0px 10px;
+    vertical-align:top;
+    text-align:left;
+    color:#dfdfdf;
+    background-color:white;
+}
+.YXCGZB ul {
+    width:280px;height:9%;
+    margin-top:8px 2px 10px
+}
+.YXCGZB ul li{
+    text-align:center;
+    list-style-type:disc;
+    list-style-position:inside;
+    line-height:15px;
+    font-size:15px;
+    font-weight:bold;
+}
+.YXCGZB h2{
+    display:block;
+    width:280px;
+    height:8%;
+    margin:5px 10px;
+    text-align:center;
+    line-height:13px;
+    font-size:13px;
+}
+.YXCGZB p{
+    height:70px;
+    width:280px;
+    margin:5px 10px;
+    padding:0px 15px;
+    text-align:left;
+    text-indent:26px;
+}
+#carousel_example_generic {
+    float:right;
+    margin:5px 5px;
+    width:470px; 
+    height:96%
+}
+.ZXFBCG {
+    float:right;
+    margin:0px auto;
+    width:400px;
+    height:100%; 
+    border:1px solid #dfdfdf; 
+    border-collapse:collapse;
+}
+.ZXFBCG h1{
+    width:400px;
+    text-align:center;
+    margin:10px;
+    font-size:18px;
+    font-weight:bold;
+    color:#1b4570;
+}
+.ZXFBCG hr{ 
+    width:400px;
+    text-align:left;
+    margin:0px 3px 10px;
+}
+.OneGain{
+    height:20px;
+    margin:5px 10px;
+    text-overflow:ellipsis;
+   
+}
+.ZXFBCG h2{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.ZXFBCGname{
+    width:250px;
+    float:left;
+}
+.ZXFBCGauthor{
+    width:120px;
+    float:right;
+}
+
+.third{
+    margin:10px auto;
+    width:1200px;
+    height:1040px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.third>ul {
+    width:285px;
+    float:left;
+    text-align:center;
+    line-height:60px;
+    margin:0px;
+    font-size:16px;
+    background-color:#36687a;
+    color:white;
+}
+.third>ul li{
+    border:1px solid #dfdfdf;
+}
+.third>ul>li>a{
+    color: white;
+    display: block;
+}
+.third>ul>li.active{
+    background-color:white;
+}
+.third>ul>li.active a{
+    color:black;
+}
+.third>div{
+    float:right;
+    border:1px solid #dfdfdf;
+    padding:5px;
+}
+.teamsearch {
+    width:890px;
+    height:50px;
+    background-color:#dfdfdf;
+}
+.teamsearch h3{
+    float:left;
+    margin:15px 10px 15px 30px;
+    line-height:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+.teamsearch select {
+    float:left;
+    width:120px;height:34px;
+    margin:8px 0px;
+    line-height:20px;
+    border-radius:4px;
+    padding:3px 3px;
+}
+.teamsearch>input {
+    float:left;
+    width:120px;height:34px;
+    font-size:14px;
+    margin:8px 0px;
+}
+.teamsearch>button {
+    float:left;
+    width:60px;height:34px;
+    font-size:14px;
+    margin:8px 30px;
+    background-color:#36687a;
+    color:white;
+}
+.provincesel {
+    float: left;
+    width: 260px;
+    margin-right: -10px;
+}
+.form-group{
+    float: left;
+    margin:0px 10px 0 0;
+}
+.divteamlist {
+    width:890px;
+    height:880px;
+    margin:5px auto;
+}
+.teaminfo {
+    width:890px;height:171px;
+    border:1px solid;
+    border-color:#dfdfdf;
+    margin:5px 0px;
+}
+.teaminfo table{
+    float:left;
+    margin:10px 0px 10px 20px; 
+    width:520px;
+    table-layout:fixed;
+}
+
+.teaminfo td {
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:14px;
+}
+
+#teamcotent {
+    width:100%;
+    white-space:normal;
+    word-break:break-all;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:14px;
+}
+.teaminfo ul{
+    float:right;
+    width:300px;
+    text-align:left;
+    line-height:20px;
+    margin:5px 20px;
+    padding:0px;
+}
+.teaminfo>ul li{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin:5px;
+    list-style-position:inside;
+}
+.pagerecord {
+    width:800px;
+    float:right;
+    margin:10px 5px;
+    padding:10px;
+    background-color:#E8F5FE;
+    font-size:14px;
+}
+.pagerecord span{
+    border:0; 
+    margin:0px 2px; 
+    padding:3px 10px;
+    float:left;
+    font-size:14px;
+    list-style:none;
+}
+.pagerecord a{
+    border:0; 
+    margin:0px 2px; 
+    padding:3px 10px;
+    float:left;
+    font-size:14px;
+    list-style:none;
+    background-color:white;
+    color:black;
+}
+.pagerecord ul{
+    float:left;
+    width:260px;
+    border:0; 
+    margin:10px 0px; 
+    padding:0;
+}
+.pagerecord input{
+    text-align:center;
+    margin: 0 5px;
+}
+
+.pagerecord input[type="button"]{
+    padding:3px 10px;
+}
+
+#pagination-digg li{
+    border:0; 
+    margin:0px 2px; 
+    padding:3px 6px;
+    float:left;
+    font-size:14px;
+    list-style:none;
+    background-color:whitesmoke;
+}
+.page_previous,
+.page_next{
+    border:solid 1px #DEDEDE;
+    color:#888888;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-right:2px;
+    padding:3px 4px;
+}
+#pagination-digg.next a,
+#pagination-digg.previous a{font-weight:bold;
+} 
+#pagination-digg.active{
+    background:#2e6ab1;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+}
+#pagination-digg a:link,
+#pagination-digg a:visited{
+    color:#0e509e;
+    display:block;
+    float:left;
+    text-decoration:none;
+}
+#pagination-digg a:hover{border:solid 1px #0e509e;
+}
+.last{
+    width:1200px;
+    height:370px;
+    margin:0 auto;
+}
+.compintroductinfo{
+    margin:5px auto;
+    width:1200px;
+    height:320px;
+}
+.comptextinfo{
+    float:left;
+    margin:0 auto;
+    width:790px;
+    height:320px;
+    border:1px solid #dfdfdf;
+    padding:20px;
+}
+.comptextinfo table td{
+    padding:10px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.tdcompname{
+    font-size:18px;
+    font-weight:bold;
+    padding-top:10px;
+}
+.tdcompfield{
+    font-size:14px;
+}
+.compcontactinfo{
+    float:right;
+    margin:0 auto;
+    width:390px;
+    height:320px;
+    border:1px solid #dfdfdf;
+}
+.compcontactinfo>h1{
+    width:100%;
+    height:40px;
+    background-color:#9BC9FA;
+    font-size:16px;
+    font-weight:bold;
+    line-height:40px;
+    text-align:center;
+    vertical-align:central;
+}
+.compcontactinfo table{
+    margin:10px auto; 
+    width:380px;
+    table-layout:fixed;
+    font-size:14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.compcontactinfo td{
+    padding:4px;
+}
+.compcontactinfo>h2{
+    width:100%;
+    font-size:14px;
+    text-align:center;
+    color:#004EFF;
+    padding: 10px;
+}
+.contactidentify{
+    height:80px;
+    text-align:center;
+}
+.contactidentify img{
+    margin:5px 25px;
+    height: 66px;
+}
+.compdatainfo{
+    margin:5px auto;
+    width:1200px;
+    height:220px;
+    border:1px solid #dfdfdf;
+}
+.compdatainfo table{
+    width:1000px;
+    margin:10px auto; 
+    table-layout:fixed;
+    font-size:14px;
+    text-align:center;
+}
+.compdatainfo td{
+    padding:4px;
+}
+.compdatainfo td img{
+    width:30px;
+    height:30px;
+}
+.compdatavalue{
+    font-size:30px;
+    font-weight:bold;
+}
+.compdatainfo>h1{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    vertical-align: central;
+    font-weight: bold;
+    color: #004EFF;
+    padding-left: 30px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.compregisterinfo{
+    margin:5px auto;
+    width:1200px;
+    height:210px;
+    border:1px solid #dfdfdf;
+}
+.compregisterinfo table{
+    float:left;
+    width:750px;
+    height:100%;
+    margin:0px auto; 
+    table-layout:fixed;
+    font-size:14px;
+    text-align:center;
+}
+.compregisterinfo table td{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border:1px solid;
+    border-color:#dfdfdf;
+    padding:10px;
+}
+.compregisterinfo table td:nth-child(2n+1){
+    background-color:#FAFAFA;
+}
+.compregisterinfo_colodd{
+    width:18%;
+}
+.compregisterinfo_coleven{
+    width:32%;
+    text-align:left;
+}
+.compregisterinfo img{
+    float:right;
+    margin:10px 25px;
+    width:350px;
+    height:180px;
+}
+.comprelateinfo{
+    margin:5px auto;
+    width:1200px;
+    height:870px;
+}
+.comprelateinfo ul{
+    height:50px;
+    text-align:center;
+    line-height:60px;
+    margin:0px;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    border-bottom: 1px solid #2C85E9;
+}
+.comprelateinfo ul li{
+    width:150px;
+    float:left;
+    margin:0px auto;
+}
+.comprelateinfo ul li a{
+    line-height:50px;
+    display:block;
+}
+.comprelateinfo ul li.active{
+    background-color:#2C85E9;
+}
+.comprelateinfo ul li.active a{
+    color:white;
+}
+.comprelatecotent{
+    margin:5px auto;
+    height:100px;
+}
+.comprelatecotent table{
+    float:left;
+    width:580px;
+    height:80px;
+    margin:10px auto; 
+    table-layout:fixed;
+    font-size:14px;
+    text-align:center;
+    overflow:hidden;
+    text-overflow:ellipsis;   
+}
+.teamrelatelist{
+    height:745px;
+    width:1200px;
+}
+.oneTeamRelate{
+    float:left;
+    width:49%;
+    height:150px;
+    margin:10px 1% 0 0;
+    border:1px solid;
+    border-color:#dfdfdf;
+    padding:10px;
+}
+.oneTeamRelate table{
+    height:100%;
+    table-layout:fixed;
+}
